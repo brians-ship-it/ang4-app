@@ -1,0 +1,7 @@
+<!-- <span class="glyphicon glyphicon-star"></span> bootstrap 4 doesn't have glyphicons -->
+<button class="btn"
+	[class.btn-primary]="isFavorite"
+	[class.btn-warning]="!isFavorite"
+	(click)="onClick()">
+	Demo Icon - Click to change color
+</button>
